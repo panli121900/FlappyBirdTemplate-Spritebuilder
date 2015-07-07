@@ -19,11 +19,11 @@
     // increment timeSinceObstacle every time this update method is run (60 times a second)
     // after 2 seconds, add obstacle and clear timer
     timeSinceObstacle += delta;
-    if (timeSinceObstacle > 2.0f)
-    {
-        [self addObstacle];
-        timeSinceObstacle = 0.0f;
-    }
+//    if (timeSinceObstacle > 2.0f)
+//    {
+//        [self addObstacle];
+//        timeSinceObstacle = 0.0f;
+//    }
 }
 
 // put new methods here
